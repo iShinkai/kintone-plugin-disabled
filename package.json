@@ -10,6 +10,8 @@
   "devDependencies": {
     "@cybozu/eslint-config": "^4.0.1",
     "@kintone/plugin-packer": "^3.0.0",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1"
   }
 }
