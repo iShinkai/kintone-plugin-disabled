@@ -8,3 +8,9 @@
   margin: 0.8rem;
   margin-top: 0;
 }
+
+.goog-tab-bar.goog-tab-bar-horizontal.goog-tab-bar-top {
+  background-size: auto auto;
+  background-color: rgba(191, 245, 255, 1);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(187, 231, 254, 1) 10px, rgba(187, 231, 254, 1) 20px );
+}

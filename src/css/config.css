@@ -5,3 +5,9 @@
 .kintoneplugin-input-text {
   width: 20em;
 }
+
+.onecolumn-gaia .contents-gaia .main-gaia {
+  background-size: auto auto;
+  background-color: rgba(191, 245, 255, 1);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(187, 231, 254, 1) 10px, rgba(187, 231, 254, 1) 20px );
+}
