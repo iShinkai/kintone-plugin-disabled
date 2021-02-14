@@ -1,9 +1,9 @@
 ;(() => {
   /**
-   * プラグインロード時処理
+   * 【1】 プラグインロード時処理
    */
   const elem = document.createElement('div')
-  elem.innerText = '🐹'
+  elem.innerText = '🐭'
   elem.style.position = 'absolute'
   elem.style.right = '40px'
   elem.style.top = '50px'
@@ -11,7 +11,7 @@
   document.getElementsByTagName('body')[0].appendChild(elem)
 
   /**
-   * レコード作成時・編集時イベント
+   * 【2】 レコード追加時・編集時イベント
    */
   kintone.events.on(
     ['mobile.app.record.create.show', 'mobile.app.record.edit.show'],

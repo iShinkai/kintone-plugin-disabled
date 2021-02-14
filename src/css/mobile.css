@@ -9,8 +9,15 @@
   margin-top: 0;
 }
 
-.goog-tab-bar.goog-tab-bar-horizontal.goog-tab-bar-top {
-  background-size: auto auto;
-  background-color: rgba(191, 245, 255, 1);
-  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(187, 231, 254, 1) 10px, rgba(187, 231, 254, 1) 20px );
+/**
+ * 【3】 画面上部のアプリ名の背景をストライプに変更
+ */
+.gaia-mobile-v2-app-record-breadcrumbnavigation.gaia-mobile-v2-app-record-breadcrumbnavigation-app-not-in-space {
+  background-image: repeating-linear-gradient(
+    135deg,
+    #bff5ff,
+    #bff5ff 10px,
+    #bbe7fe 10px,
+    #bbe7fe 20px
+  );
 }

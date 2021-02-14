@@ -6,8 +6,15 @@
   width: 20em;
 }
 
+/**
+ * 【5】 設定ブロックの背景をストライプに変更
+ */
 .onecolumn-gaia .contents-gaia .main-gaia {
-  background-size: auto auto;
-  background-color: rgba(191, 245, 255, 1);
-  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(187, 231, 254, 1) 10px, rgba(187, 231, 254, 1) 20px );
+  background-image: repeating-linear-gradient(
+    135deg,
+    #bff5ff,
+    #bff5ff 10px,
+    #bbe7fe 10px,
+    #bbe7fe 20px
+  );
 }
