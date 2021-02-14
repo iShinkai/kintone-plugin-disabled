@@ -1,6 +1,6 @@
 ;(() => {
   /**
-   * プラグインロード時処理
+   * 【1】 プラグインロード時処理
    */
   const elem = document.createElement('div')
   elem.innerText = '🐹'
@@ -11,7 +11,7 @@
   document.getElementsByTagName('body')[0].appendChild(elem)
 
   /**
-   * レコード作成時・編集時イベント
+   * 【2】 レコード追加時・編集時イベント
    */
   kintone.events.on(
     ['app.record.create.show', 'app.record.edit.show'],
